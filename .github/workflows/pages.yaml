@@ -1,4 +1,4 @@
-name: playground
+name: pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  playground:
+  pages:
     runs-on: ubuntu-20.04
     steps:
       - name: Cancel Previous Runs
